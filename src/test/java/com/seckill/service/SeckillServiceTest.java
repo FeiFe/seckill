@@ -39,6 +39,7 @@ public class SeckillServiceTest {
     public void queryById() throws Exception {
         Seckill seckill = seckillService.queryById(1000L);
         logger.info("seckill={}",seckill);
+
     }
 
     @Test
