@@ -41,7 +41,6 @@ public class SeckillServiceTest {
         logger.info("seckill={}",seckill);
     }
 
-
     @Test
     public void exportSeckillUrl() throws Exception {
         Export export = seckillService.exportSeckillUrl(1001L);
